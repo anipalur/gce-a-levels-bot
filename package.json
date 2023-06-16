@@ -1,0 +1,42 @@
+{
+  "name": "gce-a-levels-bot",
+  "version": "0.0.0",
+  "description": "A powerful, multi-purpose Discord bot that manages the GCE A Levels Discord server!",
+  "main": "./src/index.js",
+  "scripts": {
+    "deploy-commands": "node \"./src/deploy-commands.js\"",
+    "lint": "npx eslint --fix \"./src/**/*.js\" && echo Successfully linted all .js files!",
+    "start": "pm2 start . --name \"gce-a-level-bot\" && pm2 monit",
+    "stop": "pm2 stop .",
+    "test": "cls && node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anipalur/gce-a-levels-bot.git"
+  },
+  "keywords": [
+    "discord-bot",
+    "discord-js",
+    "discord-js-bot",
+    "discordjs",
+    "multipurpose-discord-bot"
+  ],
+  "author": {
+    "name": "anipalur",
+    "url": "https://github.com/anipalur"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anipalur/gce-a-levels-bot/issues"
+  },
+  "homepage": "https://github.com/anipalur/gce-a-levels-bot#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "common-tags": "^1.8.2",
+    "discord.js": "^14.11.0",
+    "pm2": "^5.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.42.0"
+  }
+}
