@@ -1,0 +1,13 @@
+{
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": false,
+  "files.readonlyInclude": {
+    "node_modules/**": true
+  },
+  "search.exclude": {
+    "**/*.code-search": false,
+    "**/bower_components": false,
+    "**/node_modules": true,
+    "package-lock.json": true
+  }
+}
