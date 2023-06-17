@@ -12,7 +12,7 @@ If you believe you have found a vulnerability in our bot, please report it to us
 
 ## Reporting a Vulnerability
 
-> **Warning**
+> **Warning**  
 > **Do not report a vulnerability through an issue, pull request or any other public channel.**
 
 Instead, please open a ticket in the `#tickets` channel in our server.
