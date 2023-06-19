@@ -1,6 +1,10 @@
 const { REST, Routes } = require('discord.js');
 const path = require('node:path');
 const getFiles = require('./tools/get-files.js');
+
+// Comment out this dotenv import if you have configured your environment variables elsewhere.
+require('dotenv').config();
+
 const { clientId, guildId } = require('./config/bot.json');
 const { stripIndents } = require('common-tags');
 const chalk = require('chalk');
@@ -39,7 +43,7 @@ for (const file of commandFiles) {
 }
 
 // Constructs and prepares a new instance of the REST module.
-const rest = new REST({ version: '10' }).setToken(process.env.TOKEN);
+const rest = new REST({ version: '10' }).setToken(process.env.DISCORD_BOT_TOKEN);
 
 (async () => {
 	try {
