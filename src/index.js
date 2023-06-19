@@ -1,6 +1,10 @@
 const { Client, Collection, GatewayIntentBits, Partials } = require('discord.js');
 const path = require('node:path');
 const getFiles = require('./tools/get-files.js');
+
+// Comment out this dotenv import if you have configured your environment variables elsewhere.
+require('dotenv').config();
+
 const { stripIndents } = require('common-tags');
 const chalk = require('chalk');
 
@@ -103,4 +107,4 @@ for (const file of eventFiles) {
 	}
 }
 
-client.login(process.env.TOKEN);
+client.login(process.env.DISCORD_BOT_TOKEN);
