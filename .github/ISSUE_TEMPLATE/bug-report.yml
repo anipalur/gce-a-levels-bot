@@ -62,7 +62,7 @@ body:
     attributes:
       label: Code of Conduct
       description: By submitting this issue, you agree to abide by our [Code of
-        Conduct](./.github/CODE_OF_CONDUCT.md "View the Code of Conduct.").
+        Conduct](https://github.com/anipalur/gce-a-levels-bot/blob/main/.github/CODE_OF_CONDUCT.md "View the Code of Conduct.").
       options:
         - label: I agree to abide by the Code of Conduct.
           required: true
