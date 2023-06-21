@@ -28,7 +28,7 @@ If you believe you've found a bug, [create a new GitHub issue](https://github.co
 
 Feel free to [link *relevant* issues or pull requests](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests "Learn how to link issues and pull requests.") in your issue.
 
-## ⬆️ Feature Request
+## 💡 Feature Request
 
 If you have an idea for a new feature, [create a new GitHub issue](https://github.com/anipalur/gce-a-leve-bot/issues/new/choose) using the `Feature Request` issue template.  
 
