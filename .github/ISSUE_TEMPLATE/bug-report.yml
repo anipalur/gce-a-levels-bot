@@ -1,0 +1,68 @@
+---
+name: 🐛 Bug Report
+description: File a bug report.
+labels: bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Firstly, thanks for taking the time to fill out this bug report!
+        Please ensure your issue has not been raised before on [GitHub Issues](https://github.com/anipalur/gce-a-levels-bot/issues "Visit the GitHub Issues tab.").
+        Duplicate or unrelated issues will be closed.
+  - type: input
+    id: discord-username
+    attributes:
+      label: Discord Username
+      description: Please share your Discord username so we can get in touch with you
+        for more information.
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug Description
+      description: What is the bug?
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: List the steps to reproduce the bug.
+      value: |
+        1. 
+        2. 
+        3. 
+        ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behaviour
+    attributes:
+      label: Expected Behaviour
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Log Output
+      description: Please share any relevant log output.
+      render: shell
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Relevant Screenshots
+      description: Please share any relevant screenshots.
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Add additional information not covered elsewhere here.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to abide by our [Code of
+        Conduct](./.github/CODE_OF_CONDUCT.md "View the Code of Conduct.").
+      options:
+        - label: I agree to abide by the Code of Conduct.
+          required: true
