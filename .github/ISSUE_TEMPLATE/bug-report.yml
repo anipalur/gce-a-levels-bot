@@ -1,6 +1,6 @@
 ---
-name: 🐛 Bug Report
-description: File a bug report.
+name: File a bug report
+description: Found a bug? Let us know here!
 labels: bug
 body:
   - type: markdown
