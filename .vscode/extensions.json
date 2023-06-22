@@ -1,7 +1,8 @@
 {
   "recommendations": [
-    "streetsidesoftware.code-spell-checker",
     "dbaeumer.vscode-eslint",
+    "mongodb.mongodb-vscode",
+    "streetsidesoftware.code-spell-checker",
     "xabikos.javascriptsnippets"
   ]
 }
