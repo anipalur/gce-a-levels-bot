@@ -1,0 +1,46 @@
+---
+name: Request an enhancement
+description: Have an idea to improve an existing feature? Let us know here!
+labels: enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Firstly, thanks for taking the time to request an enhancement!
+        Please ensure your enhancement has not been requested before on [GitHub Issues](https://github.com/anipalur/gce-a-levels-bot/issues "Visit the GitHub Issues tab.").
+        Duplicate or unrelated issues will be closed.
+  - type: input
+    id: discord-username
+    attributes:
+      label: Discord Username
+      description: Please share your Discord username so we can get in touch with you
+        for more information.
+  - type: textarea
+    id: related-problem
+    attributes:
+      label: Related Problem
+      description: Is an existing problem related to your request? If so, please
+        describe it.
+      value: I'm always frustrated when...
+  - type: textarea
+    id: enhancement-description
+    attributes:
+      label: Enhancement Description
+      description: Describe your enhancement. How does it improve an existing feature?
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Add additional information not covered elsewhere here.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to abide by our [Code of
+        Conduct](https://github.com/anipalur/gce-a-levels-bot/blob/main/.github/CODE_OF_CONDUCT.md
+        "View the Code of Conduct.").
+      options:
+        - label: I agree to abide by the Code of Conduct.
+          required: true
