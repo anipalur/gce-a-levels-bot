@@ -12,10 +12,11 @@
     "package-lock.json": true
   },
   "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "editor.insertSpaces": false,
     "editor.tabSize": 4
   },
-  "[yaml][markdown][json]": {
+  "[json][markdown][yaml]": {
     "editor.insertSpaces": true,
     "editor.tabSize": 2
   }
