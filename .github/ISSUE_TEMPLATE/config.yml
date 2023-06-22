@@ -1,2 +1,6 @@
 ---
 blank_issues_enabled: false
+contact_links:
+  - name: GCE A Levels Discord Server
+    url: https://discord.gg/eFpRcRzcf7
+    about: Need help with installing or using the bot? Join our Discord server!
