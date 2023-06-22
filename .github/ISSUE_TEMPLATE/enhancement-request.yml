@@ -26,7 +26,7 @@ body:
     id: enhancement-description
     attributes:
       label: Enhancement Description
-      description: Describe your enhancement. How does it improve an existing feature?
+      description: Describe your enhancement. How would it improve an existing feature?
     validations:
       required: true
   - type: textarea
