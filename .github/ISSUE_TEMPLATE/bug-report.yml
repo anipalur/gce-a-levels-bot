@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Firstly, thanks for taking the time to fill out this bug report!
-        Please ensure your issue has not been raised before on [GitHub Issues](https://github.com/anipalur/gce-a-levels-bot/issues "Visit the GitHub Issues tab.").
+        Please ensure your report has not been raised before on [GitHub Issues](https://github.com/anipalur/gce-a-levels-bot/issues "Visit the GitHub Issues tab.").
         Duplicate or unrelated issues will be closed.
   - type: input
     id: discord-username
