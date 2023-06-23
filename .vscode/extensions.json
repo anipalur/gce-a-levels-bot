@@ -3,6 +3,7 @@
     "dbaeumer.vscode-eslint",
     "mongodb.mongodb-vscode",
     "streetsidesoftware.code-spell-checker",
-    "xabikos.javascriptsnippets"
+    "xabikos.javascriptsnippets",
+    "davidanson.vscode-markdownlint"
   ]
 }
