@@ -7,12 +7,12 @@ please ensure your request has not been raised before on [GitHub Issues](https:/
 Duplicate or unrelated issues will be closed.
 
 > **Note**  
-> By participating in our community, you agree to abide by our [Code of Conduct](./.github/CODE_OF_CONDUCT.md "View the Code of Conduct.").
+> By participating in our community, you agree to abide by our [Code of Conduct](./CODE_OF_CONDUCT.md "View the Code of Conduct.").
 
 ## ❓ Getting Help
 
 If you're having trouble setting up the bot locally or have questions about the bot in general,
-please tell us about it in the `#programming` channel in [our Discord server](https://discord.gg/eFpRcRzcf7 "Click here to join the GCE A Levels Discord server!").
+please tell us about it in the `#programming` channel in [our Discord server](https://discord.gg/eFpRcRzcf7 "Join the GCE A Levels Discord server!").
 
 Please do the following.
 
@@ -29,17 +29,19 @@ Please do the following.
 ## 🐛 Reporting Bugs
 
 If you believe you've found a bug,
-[create a new GitHub issue](https://github.com/anipalur/gce-a-leve-bot/issues/new/choose "Create a new GitHub issue.") using the `Bug Report` issue template.
+[file a bug report](https://github.com/anipalur/gce-a-levels-bot/issues/new?assignees=&labels=bug&projects=&template=bug-report.yml "File a bug report.").
 
-Feel free to [link *relevant* issues or pull requests](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests "Learn how to link issues and pull requests.") in your issue.
+Feel free to [link *relevant* issues or pull requests][linking-issue-prs] in your issue.
 
 ## 💡 Feature Request
 
 If you have an idea for a new feature,
-[create a new GitHub issue](https://github.com/anipalur/gce-a-leve-bot/issues/new/choose) using the `Feature Request` issue template.
+[request a feature](https://github.com/anipalur/gce-a-levels-bot/issues/new?assignees=&labels=new+feature&projects=&template=feature-request.yml "Request a feature.").
 
-Feel free to [link *relevant* issues or pull requests](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests "Learn how to link issues and pull requests.") in your issue.
+Feel free to [link *relevant* issues or pull requests][linking-issue-prs] in your issue.
 
 ## 🔒 Reporting a Vulnerability
 
-See [SECURITY.md](./.github/SECURITY.md "View the SECURITY.md file.") for more about reporting vulnerabilities.
+See [SECURITY.md](./SECURITY.md "View the SECURITY.md file.") for more about reporting vulnerabilities.
+
+[linking-issue-prs]: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests "Learn how to link issues and pull requests."
