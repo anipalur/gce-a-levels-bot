@@ -17,9 +17,10 @@ If you believe you've found a vulnerability in our bot, please report it to us a
 
 Instead, please open a ticket in the `#tickets` channel in our server.
 
-We'll try our best to respond within 24 hours. If you don't receive a response within 24 hours, please send a DM to `anipalur` on Discord.
+We'll try our best to respond within 24 hours.
+If you don't receive a response within 24 hours, please send a DM to `anipalur` on Discord.
 
-Please include as much of the following information to help us understand and resolve the possible issue.
+Please include as much of the following information to help us understand and resolve the issue.
 
 - A brief description of the issue.
 - Full paths of the source file(s) related to the issue (if applicable).
