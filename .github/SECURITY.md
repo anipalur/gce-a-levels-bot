@@ -15,7 +15,7 @@ If you believe you've found a vulnerability in our bot, please report it to us a
 > **Warning**  
 > **Do not report a vulnerability through an issue, pull request or any other public channel.**
 
-Instead, please open a ticket in the `#tickets` channel in our server.
+Instead, please open a ticket in the `#tickets` channel in [our Discord server](https://discord.gg/eFpRcRzcf7 "Join the GCE A Levels Discord server!").
 
 We'll try our best to respond within 24 hours.
 If you don't receive a response within 24 hours, please send a DM to `anipalur` on Discord.
