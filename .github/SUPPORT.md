@@ -1,6 +1,6 @@
 # Getting Support
 
-Thank you for your interest in this project!
+Firstly, thank you for your interest in this project!
 
 If you're reporting a bug or requesting a new feature,
 please ensure your request has not been raised before on [GitHub Issues](https://github.com/anipalur/gce-a-levels-bot/issues "Visit the GitHub Issues tab.").  
