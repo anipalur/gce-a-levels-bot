@@ -37,7 +37,7 @@ Follow these steps to get started with running the bot.
     under `Bot` > `Build-A-Bot` > `Token`.</a>
   - Make sure to [enable all privileged gateway intents](https://discord.com/developers/docs/topics/gateway#enabling-privileged-intents "Learn how to enable privileged gateway intents.")
     (Presence, Server Members and Message Content) under `Bot` > `Privileged Gateway Intents`.
-  - Don't forget to [invite your bot](https://discordjs.guide/preparations/adding-your-bot-to-servers.html "Learn how to invite your bot to a server.") to your server!
+  - Don't forget to [invite your bot](https://discordjs.guide/preparations/adding-your-bot-to-servers.html "Learn how to invite your bot to a server.") to your server!  
     Need a server to test the bot? Use [our server template](https://discord.new/3xtyZGkv5spR "Create a server using our template.").
 - A [MongoDB Atlas cluster](https://www.mongodb.com/docs/atlas/getting-started "Learn how to create a MongoDB Atlas cluster.").
   - If you plan to host your bot elsewhere, make sure to [add `0.0.0.0/0` as an IP address](https://www.mongodb.com/docs/atlas/security/add-ip-address-to-list "Learn how to add an IP address.").
@@ -131,6 +131,12 @@ npm run check-env
 You should receive a success message if your environment has been configured correctly.
 
 ### 🚀 Running the Bot
+
+Deploy all application commands.
+
+```bash
+npm run deploy-commands
+```
 
 Start the bot.
 
