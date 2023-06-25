@@ -10,12 +10,12 @@ This bot also uses the latest Discord API features, including modals, autocomple
 ## ✨ Features
 
 - [ ] Advanced reputation system, including reputation profiles, a global and subject leaderboard, an upvote system and reputation management commands.
-- [ ] Subject management, allowing staff to add/modify subject channels and helper roles, enable/disable subjects and manage subject information.
+- [ ] Subject management, allowing staff to add or modify subject channels and helper roles, enable or disable subjects and manage subject information.
 - [ ] Moderation commands with AutoMod integration.
 - [ ] Ticket system using private threads.
 - [ ] Reddit-style suggestion and feedback system using forum channels.
 - [ ] Server management commands.
-- [ ] Modular architecture, allowing staff to enable/disable bot features.
+- [ ] Modular architecture, allowing staff to enable or disable bot features.
 - [ ] Past paper search, AI chat, utility commands and more!
 
 ## 📖 Quickstart
