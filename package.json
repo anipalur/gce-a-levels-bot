@@ -5,7 +5,10 @@
   "main": "./src/index.js",
   "scripts": {
     "deploy-commands": "node \"./src/deploy-commands.js\"",
-    "lint": "npx eslint --fix \"./src/**/*.js\" && echo Successfully linted all .js files!",
+    "is-linted:js": "npx eslint \"./src/**/*.js\"",
+    "is-linted:md": "npx markdownlint \"**/*.md\" --ignore node_modules",
+    "lint:js": "npx eslint --fix \"./src/**/*.js\" && echo Successfully linted all .js files!",
+    "lint:md": "npx markdownlint --fix \"**/*.md\" --ignore node_modules && echo Successfully linted all .md files!",
     "start": "pm2 start . --name \"gce-a-level-bot\" && pm2 monit",
     "stop": "pm2 stop .",
     "test": "cls && node ."
