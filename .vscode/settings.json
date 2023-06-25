@@ -16,8 +16,13 @@
     "editor.insertSpaces": false,
     "editor.tabSize": 4
   },
-  "[json][markdown][yaml]": {
+  "[json][yaml]": {
     "editor.insertSpaces": true,
     "editor.tabSize": 2
+  },
+  "[markdown]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "off"
   }
 }
