@@ -1,0 +1,25 @@
+# Greets users who are first-time contributors to the repository.
+#
+# Source repository: https://github.com/actions/first-interaction
+---
+name: Greetings
+on:
+  - pull_request_target
+  - issues
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - name: Greet User
+        uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+            Nice work creating your first issue! 🎉
+            Check out [our Discord server](https://discord.gg/eFpRcRzcf7 "Join the GCE A Levels Discord server!") and say hello!
+          pr-message: |
+            Nice work creating your first pull request! 🎉
+            Check out [our Discord server](https://discord.gg/eFpRcRzcf7 "Join the GCE A Levels Discord server!") and say hello!
