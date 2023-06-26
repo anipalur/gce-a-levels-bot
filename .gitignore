@@ -1,7 +1,14 @@
 # Dependency directory
 node_modules/
 
+# Environment variables
 .env
+
+# Config files for IDs
+src/config/bot.json
+src/config/channels.json
+src/config/emojis.json
+src/config/roles.json
 
 # Logs
 logs
