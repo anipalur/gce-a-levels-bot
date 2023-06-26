@@ -4,6 +4,7 @@
   "description": "A powerful, multi-purpose Discord bot that manages the GCE A Levels Discord server!",
   "main": "./src/index.js",
   "scripts": {
+    "check-env": "node \"./test/check-env.js\"",
     "deploy-commands": "node \"./src/deploy-commands.js\"",
     "is-linted:js": "npx eslint \"./src/**/*.js\"",
     "is-linted:md": "npx markdownlint \"**/*.md\" --ignore node_modules",
