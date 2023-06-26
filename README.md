@@ -91,7 +91,7 @@ Follow these steps to set your environment variables using your secrets.
 
 #### 🪪 IDs
 
-You will need the following IDs:
+Follow these steps to set your IDs.
 
 > **Note**  
 > Visit [this page](https://support.discord.com/hc/articles/206346498 "Learn how to get your IDs.") to learn how to get your IDs.
@@ -107,17 +107,17 @@ You will need the following IDs:
 >  
 > </details>
 
-Follow these steps to set your IDs.
-
 1. Navigate to `src` > `config`.
 2. Rename the following files accordingly:
     1. [`bot-example.json`](./src/config/bot-example.json "Open the bot-example.json file.") > `bot.json`
     2. [`channels-example.json`](./src/config/channels-example.json "Open the channels-example.json file.") > `channels.json`
-    3. [`roles-example.json`](./src/config/roles-example.json "Open the roles-example.json file.") > `roles.json`
+    3. [`emojis-example.json`](./src/config/emojis-example.json "Open the emojis-example.json file.") > `emojis.json`
+    4. [`roles-example.json`](./src/config/roles-example.json "Open the roles-example.json file.") > `roles.json`
 3. Enter your IDs.
     1. Enter your bot (under client) and server (under guild) IDs in [`bot.json`](./src/config/bot.json "Open the bot.json file.").
     2. Enter your channel IDs in [`channels.json`](./src/config/channels.json "Open the channels.json file.").
-    3. Enter your role IDs in [`roles.json`](./src/config/roles.json "Open the roles.json file.").
+    3. Enter your custom emoji IDs in [`emojis.json`](./src/config/emojis.json "Open the emojis.json file.").
+    4. Enter your role IDs in [`roles.json`](./src/config/roles.json "Open the roles.json file.").
 4. Save all files.
 
 ### 🚨 Checking your Environment
