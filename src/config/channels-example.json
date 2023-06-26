@@ -1,0 +1,11 @@
+{
+  "botCommandsChannelId": "",
+  "botLogsChannelId": "",
+  "botNotifsChannelId": "",
+  "chatChannelId": "",
+  "moderationLogsThreadId": "",
+  "otherLogsThreadId": "",
+  "serverLogsThreadId": "",
+  "suggestionsChannelId": "",
+  "ticketsChannelId": ""
+}
