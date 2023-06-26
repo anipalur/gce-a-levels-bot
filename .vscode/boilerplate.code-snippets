@@ -1,0 +1,65 @@
+{
+  "button": {
+    "scope": "javascript",
+    "prefix": "button",
+    "body": [
+      "const { formatEmoji } = require('discord.js');",
+      "// Additional IDs that can be retrieved from the config folder",
+      "// const { channelIds } = require('../config/channels.json');",
+      "// const { colours } = require('../config/colours.json');",
+      "// const { emojiIds } = require('../config/emojis.json');",
+      "// const { rolesIds } = require('../config/roles.json');",
+      "const { stripIndents } = require('common-tags');",
+      "",
+      "const data = { name: '$TM_FILENAME_BASE' };",
+      "",
+      "async function execute(interaction, client, user) {",
+      "\t$0",
+      "}",
+      "",
+      "module.exports = { data, execute };",
+      ""
+    ],
+    "description": "Create a new button."
+  },
+  "command": {
+    "scope": "javascript",
+    "prefix": "command",
+    "body": [
+      "const { formatEmoji, SlashCommandBuilder } = require('discord.js');",
+      "// Additional IDs that can be retrieved from the config folder",
+      "// const { channelIds } = require('../config/channels.json');",
+      "// const { colours } = require('../config/colours.json');",
+      "// const { emojiIds } = require('../config/emojis.json');",
+      "// const { rolesIds } = require('../config/roles.json');",
+      "const { stripIndents } = require('common-tags');",
+      "",
+      "const data = new SlashCommandBuilder()",
+      "\t.setName('$TM_FILENAME_BASE')",
+      "\t.setDescription('$TM_FILENAME_BASE command description.');",
+      "",
+      "async function execute(interaction, client, user) {",
+      "\t$0",
+      "}",
+      "",
+      "module.exports = { data, execute };",
+      ""
+    ],
+    "description": "Create a new slash command."
+  },
+  "reply": {
+    "scope": "javascript",
+    "prefix": "reply",
+    "body": [
+      "await interaction.reply({",
+      "\tembeds: [{",
+      "\t\ttitle: '$0',",
+      "\t\tdescription: 'Reply Message',",
+      "\t\tcolor: Reply Colour,",
+      "\t}],",
+      "\tephemeral: true,",
+      "});"
+    ],
+    "description": "Create a new reply message."
+  }
+}
