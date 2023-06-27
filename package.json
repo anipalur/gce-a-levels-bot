@@ -12,7 +12,7 @@
     "lint:md": "npx markdownlint --fix \"**/*.md\" --ignore node_modules && echo Successfully linted all .md files!",
     "start": "pm2 start . --name \"gce-a-level-bot\" && pm2 monit",
     "stop": "pm2 stop .",
-    "test": "cls && node ."
+    "test": "node ."
   },
   "repository": {
     "type": "git",
