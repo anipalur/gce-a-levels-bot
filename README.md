@@ -49,7 +49,7 @@ Follow these steps to get started with running the bot.
 Follow these steps to install this project on your system.
 
 1. Open a CLI (e.g. Command Prompt).
-2. Navigate to a folder you want to clone the repository into.
+2. Navigate to a folder you want to clone this repository into.
 3. Clone this repository.
 
     ```bash
@@ -144,7 +144,7 @@ Start the bot.
 npm run test
 ```
 
-Alternatively, [keep the process running with PM2](https://discordjs.guide/improving-dev-environment/pm2.html "Learn more about running your bot with PM2."):
+Alternatively, [keep the process running with PM2](https://discordjs.guide/improving-dev-environment/pm2.html "Learn more about running your bot with PM2.").
 
 ```bash
 npm run start
