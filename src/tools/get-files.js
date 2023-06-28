@@ -1,4 +1,5 @@
 const fs = require('node:fs');
+const path = require('node:path');
 
 /**
  * Gets an array of .js file paths in a folder (including all subfolders).
@@ -11,7 +12,7 @@ function getFiles(folder, filePaths = []) {
 	const files = fs.readdirSync(folder);
 
 	for (const file of files) {
-		const filePath = `${folder}\\${file}`;
+		const filePath = path.join(folder, file);
 		if (fs.statSync(filePath).isDirectory()) {
 			// Recursively calls the function if a subfolder is found.
 			getFiles(filePath, filePaths);
