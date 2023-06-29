@@ -119,7 +119,7 @@ async function execute(interaction) {
 				if (interaction.options._subcommand) fullCommandName += ` ${interaction.options._subcommand}`;
 				const channelName = interaction.channel.isDMBased() ? 'a DM channel' : `#${interaction.channel.name}`;
 
-				console.log(`${user.tag} used /${fullCommandName} in ${channelName}.`);
+				console.log(`${user.username} used /${fullCommandName} in ${channelName}.`);
 			}
 		}
 		catch (error) {
@@ -135,7 +135,7 @@ async function execute(interaction) {
 			await button.execute(interaction, client, user);
 
 			const channelName = interaction.channel.isDMBased() ? 'a DM channel' : `#${interaction.channel.name}`;
-			console.log(`${user.tag} used the ${button.id} button in ${channelName}.`);
+			console.log(`${user.username} used the ${button.id} button in ${channelName}.`);
 		}
 		catch (error) {
 			handleError(interaction, error);
