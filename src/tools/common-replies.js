@@ -99,8 +99,8 @@ class Reply {
 
 	/**
 	 * Creates an 'unavailable' reply.
-	 * @param {string} successTitle - The title of the unavailable event.
-	 * @param {string} successDescription - The description of the unavailable event.
+	 * @param {string} unavailableTitle - The title of the unavailable event.
+	 * @param {string} unavailableDescription - The description of the unavailable event.
 	 * @returns {Object} - A reply embed object.
 	 */
 	unavailable(unavailableTitle, unavailableDescription) {
