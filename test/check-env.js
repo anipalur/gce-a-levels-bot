@@ -56,7 +56,7 @@ eslint-disable no-console
 	}
 
 	// Checks if each config file exists.
-	for (const configFile of ['bot', 'channels', 'roles']) {
+	for (const configFile of ['bot', 'channels', 'emojis', 'roles']) {
 		if (!fs.existsSync(path.join(__dirname, `/../src/config/${configFile}.json`))) {
 			console.log(stripIndents`
 				${chalk.redBright('[ERROR]')} Missing ${chalk.white(`${configFile}.json`)} file!
