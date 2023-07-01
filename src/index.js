@@ -1,3 +1,13 @@
+/*
+Portions of this code have been adapted from the discord.js guide project and are copyrighted by
+Sanctuary, 2017 - 2022 under the terms of the MIT license.
+
+Sources:
+- https://discordjs.guide/creating-your-bot/main-file.html
+- https://discordjs.guide/creating-your-bot/command-handling.html#loading-command-files
+- https://discordjs.guide/creating-your-bot/event-handling.html#reading-event-files
+*/
+
 const { Client, Collection, GatewayIntentBits, Partials } = require('discord.js');
 const path = require('node:path');
 const getFiles = require('./tools/get-files.js');
