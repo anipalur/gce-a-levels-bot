@@ -15,6 +15,7 @@ body:
       label: Discord Username
       description: Please share your Discord username so we can get in touch with you
         for more information.
+      value: Not specified.
   - type: textarea
     id: bug-description
     attributes:
@@ -46,17 +47,20 @@ body:
     attributes:
       label: Relevant Log Output
       description: Please share any relevant log output.
+      value: None.
       render: shell
   - type: textarea
     id: screenshots
     attributes:
       label: Relevant Screenshots
       description: Please share any relevant screenshots.
+      value: None.
   - type: textarea
     id: additional-info
     attributes:
       label: Additional Information
       description: Add additional information not covered elsewhere here.
+      value: None.
   - type: checkboxes
     id: terms
     attributes:
