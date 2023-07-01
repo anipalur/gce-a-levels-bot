@@ -7,7 +7,7 @@ There are many ways to contribute, from submitting bug reports and feature reque
 Following these guidelines helps to communicate that you respect the time of the bot developers maintaining and developing this project.
 
 > **Note**  
-> By participating in our community, you agree to abide by our [Code of Conduct](./.github/CODE_OF_CONDUCT.md "View the Code of Conduct.").
+> By participating in our community, you agree to abide by our [Code of Conduct](./CODE_OF_CONDUCT.md "View the Code of Conduct.").
 
 ## ✨ First Steps
 
