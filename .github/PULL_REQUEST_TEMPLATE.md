@@ -2,7 +2,6 @@
 Firstly, thanks for taking the time to contribute to this project!
 
 Please go through all sections of this PR template before submitting.
-Type 'None.' under sections of this template that do not apply to your PR.
 Make sure your PR is not a duplicate.
 
 Check CONTRIBUTING.md for more about contribution guidelines.
@@ -27,15 +26,17 @@ List any changes to dependencies here.
 Make sure to update package.json and package-lock.json accordingly.
 -->
 
+None.
+
 ## 🏷️ Type of Change
 
 <!-- Put an 'x' in all boxes that apply. -->
 
-- [ ] Bug fix (non-breaking patch that fixes an open issue).
-- [ ] New feature (non-breaking change that adds new functionality).
-- [ ] Breaking change (fix or feature that breaks existing functionality).
-- [ ] Documentation or repository configuration change.
-- [ ] Other change.
+- [ ] Bug fix (non-breaking patch that fixes an open issue)
+- [ ] New feature (non-breaking change that adds new functionality)
+- [ ] Breaking change (fix or feature that breaks existing functionality)
+- [ ] Documentation or repository configuration change
+- [ ] Other change
 
 ## 🗄️ Related Issues
 
@@ -51,9 +52,13 @@ Make sure to update package.json and package-lock.json accordingly.
 
 <!-- Include relevant screenshots here. -->
 
+None.
+
 ## 📜 Additional Information
 
 <!-- Add additional information not covered elsewhere here. -->
+
+None.
 
 ## 🚨 Checks
 
