@@ -12,14 +12,14 @@ Need help? See SUPPORT.md for more information.
 
 <!-- Rename the title above to briefly describe your PR. -->
 
-## ✨ Changes Made
+## Changes Made
 
 <!-- 
 Include a summary of your changes here.
 Feel free to include relevant motivation and context.
 -->
 
-## 📦 Changes to Dependencies
+## Changes to Dependencies
 
 <!-- 
 List any changes to dependencies here.
@@ -28,7 +28,7 @@ Make sure to update package.json and package-lock.json accordingly.
 
 None.
 
-## 🏷️ Type of Change
+## Type of Change
 
 <!-- Put an 'x' in all boxes that apply. -->
 
@@ -38,7 +38,7 @@ None.
 - [ ] Documentation or repository configuration change
 - [ ] Other change
 
-## 🗄️ Related Issues
+## Related Issues
 
 <!-- Include related, open issues fixed in your PR here. -->
 
@@ -48,19 +48,19 @@ None.
 - Fixes #{issue-3}
 -->
 
-## 📸 Relevant Screenshots
+## Relevant Screenshots
 
 <!-- Include relevant screenshots here. -->
 
 None.
 
-## 📜 Additional Information
+## Additional Information
 
 <!-- Add additional information not covered elsewhere here. -->
 
 None.
 
-## 🚨 Checks
+## Checks
 
 <!-- Put an 'x' in all boxes that apply. -->
 
