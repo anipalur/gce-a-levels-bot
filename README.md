@@ -9,13 +9,13 @@ This bot also uses the latest Discord API features, including modals, autocomple
 
 ## ✨ Features
 
-- [ ] Advanced reputation system, including reputation profiles, a global and subject leaderboard, an upvote system and reputation management commands.
-- [ ] Subject management, allowing staff to add or modify subject channels and helper roles, enable or disable subjects and manage subject information.
-- [ ] Moderation commands with AutoMod integration.
-- [ ] Ticket system using private threads.
-- [ ] Reddit-style suggestion and feedback system using forum channels.
-- [ ] Server management commands.
-- [ ] Modular architecture, allowing staff to enable or disable bot features.
+- [ ] Advanced reputation system, including reputation profiles, a global and subject leaderboard, an upvote system and reputation management commands
+- [ ] Subject management, allowing staff to add or modify subject channels and helper roles, enable or disable subjects and manage subject information
+- [ ] Moderation commands with AutoMod integration
+- [ ] Ticket system using private threads
+- [ ] Reddit-style suggestion and feedback system using forum channels
+- [ ] Server management commands
+- [ ] Modular architecture, allowing staff to enable or disable bot features
 - [ ] Past paper search, AI chat, utility commands and more!
 
 ## 📖 Quickstart
@@ -158,7 +158,7 @@ npm run stop
 
 ## 🤝 Contributing
 
-Contributions are welcome! See [CONTRIBUTING.md](./CONTRIBUTING.md "View the CONTRIBUTING.md file.") to get started.
+Contributions are welcome! See [CONTRIBUTING.md][contributing-link] to get started.
 
 ## ❓ Support
 
@@ -170,8 +170,14 @@ Check out the [r/IGCSE Discord bot](https://github.com/Sachin-dot-py/r-IGCSEBot 
 
 ## 🙏 Attribution
 
-Copyright for portions of this project is held by Sanctuary, 2017 - 2022 as part of the [discord.js guide](https://github.com/discordjs/guide "Learn more about the discord.js guide.") project.
-Said portions are provided under the terms of the MIT license.
+Portions of this project have been adapted from the [discord.js guide](https://github.com/discordjs/guide "Learn more about the discord.js guide.") project
+and are copyrighted by Sanctuary, 2017 - 2022 under the terms of the MIT license.
+These portions are documented accordingly.
+
+Thanks to [@nayafia's contributing guide](https://github.com/nayafia/contributing-template "View @nayafia's contributing guide.")
+for inspiring this project's [CONTRIBUTING.md][contributing-link] file!
+
+Thanks to [readme.so](https://readme.so "Visit readme.so!") for helping create this README.md file!
 
 ## ⚖️ License
 
@@ -186,3 +192,5 @@ See [LICENSE](./LICENSE "View the LICENSE file.") for more information.
 [discord-link]: https://discord.gg/eFpRcRzcf7 "Join the GCE A Levels Discord server!"
 [discord-js-link]: https://discord.js.org "Learn more about discord.js!"
 [codefactor-link]: https://www.codefactor.io/repository/github/anipalur/gce-a-levels-bot "View our code quality grade."
+
+[contributing-link]: ./CONTRIBUTING.md "View the CONTRIBUTING.md file."
