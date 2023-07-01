@@ -38,9 +38,9 @@ If you don't receive a response within 24 hours, please send a DM to `anipalur` 
 
 Please include as much of the following information to help us understand and resolve the issue.
 
-- A brief description of the issue.
-- Full paths of the source file(s) related to the issue (if applicable).
-- Step-by-step instructions to reproduce the issue.
-- The potential impact of the issue, e.g. how a bad actor might exploit the issue.
+- A brief description of the issue
+- Full paths of the source file(s) related to the issue (if applicable)
+- Step-by-step instructions to reproduce the issue
+- The potential impact of the issue, e.g. how a bad actor might exploit the issue
 
 Thanks!
