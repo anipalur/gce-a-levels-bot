@@ -1,3 +1,13 @@
+/*
+Portions of this code have been adapted from the discord.js guide project and are copyrighted by
+Sanctuary, 2017 - 2022 under the terms of the MIT license.
+
+Sources:
+- https://discordjs.guide/creating-your-bot/command-handling.html#executing-commands
+- https://discordjs.guide/additional-features/cooldowns.html
+- https://discordjs.guide/slash-commands/autocomplete.html#responding-to-autocomplete-interactions
+*/
+
 const { Events } = require('discord.js');
 const { formatEmoji } = require('@discordjs/builders');
 const { S_IN_TEN_MINUTES, MS_IN_ONE_S } = require('../data/constants.json');
