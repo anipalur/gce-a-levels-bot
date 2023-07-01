@@ -1,3 +1,10 @@
+/*
+Portions of this code have been adapted from the discord.js guide project and are copyrighted by
+Sanctuary, 2017 - 2022 under the terms of the MIT license.
+
+Source: https://discordjs.guide/popular-topics/faq.html#how-do-i-check-the-bot-s-ping
+*/
+
 const { formatEmoji, SlashCommandBuilder } = require('discord.js');
 const { Reply } = require('../tools/common-replies.js');
 const { BYTES_IN_MB, MS_IN_ONE_S } = require('../data/constants.json');
