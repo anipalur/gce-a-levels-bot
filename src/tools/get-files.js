@@ -1,3 +1,10 @@
+/*
+Portions of this code have been adapted from the discord.js guide project and are copyrighted by
+Sanctuary, 2017 - 2022 under the terms of the MIT license.
+
+Source: https://discordjs.guide/creating-your-bot/command-handling.html#command-categories
+*/
+
 const fs = require('node:fs');
 const path = require('node:path');
 
