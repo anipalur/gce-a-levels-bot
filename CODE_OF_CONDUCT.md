@@ -2,7 +2,7 @@
 
 # Contributor Covenant Code of Conduct
 
-## Our Pledge
+## 🤝 Our Pledge
 
 We as members, contributors and leaders pledge to make participation in our community a harassment-free experience for everyone,
 regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression,
@@ -10,7 +10,7 @@ level of experience, education, socio-economic status, nationality, personal app
 
 We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive and healthy community.
 
-## Our Standards
+## 🏅 Our Standards
 
 Examples of behaviour that contributes to a positive environment for our community include:
 
@@ -28,7 +28,7 @@ Examples of unacceptable behaviour include:
 - Publishing others' private information, such as a physical or email address, without their explicit permission
 - Other conduct which could reasonably be considered inappropriate in a professional setting
 
-## Enforcement Responsibilities
+## 🫡 Enforcement Responsibilities
 
 Community leaders are responsible for clarifying and enforcing our standards of acceptable behaviour
 and will take appropriate and fair corrective action in response to any behaviour that they deem inappropriate,
@@ -38,14 +38,14 @@ Community leaders have the right and responsibility to remove, edit or reject co
 issues and other contributions that are not aligned with this Code of Conduct
 and will communicate reasons for moderation decisions when appropriate.
 
-## Scope
+## 🎯 Scope
 
 This Code of Conduct applies within all community spaces
 and also applies when an individual is officially representing the community in public spaces.
 Examples of representing our community include using an official email address, posting via an official social media account
 or acting as an appointed representative at an online or offline event.
 
-## Enforcement
+## 👮 Enforcement
 
 Instances of abusive, harassing or otherwise unacceptable behaviour may be reported to the community leaders responsible for enforcement
 in the `#tickets` channel in [our Discord server](https://discord.gg/eFpRcRzcf7 "Join the GCE A Levels Discord server!").
@@ -53,12 +53,12 @@ All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
-## Enforcement Guidelines
+## 📜 Enforcement Guidelines
 
 Community leaders will follow these Community Impact Guidelines
 in determining the consequences for any action they deem in violation of this Code of Conduct.
 
-### Correction
+### 1️⃣ Correction
 
 #### Community Impact
 
@@ -70,7 +70,7 @@ A private, written warning from community leaders, providing clarity around the 
 and an explanation of why the behaviour was inappropriate.
 A public apology may be requested.
 
-### Warning
+### 2️⃣ Warning
 
 #### Community Impact
 
@@ -84,7 +84,7 @@ including unsolicited interaction with those enforcing the Code of Conduct, for 
 This includes avoiding interactions in community spaces as well as external channels like social media.
 Violating these terms may lead to a temporary or permanent ban.
 
-### Temporary Ban
+### 3️⃣ Temporary Ban
 
 #### Community Impact
 
@@ -97,7 +97,7 @@ No public or private interaction with the people involved,
 including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period.
 Violating these terms may lead to a permanent ban.
 
-### Permanent Ban
+### 4️⃣ Permanent Ban
 
 #### Community Impact
 
@@ -108,7 +108,7 @@ or aggression toward or disparagement of classes of individuals.
 
 A permanent ban from any sort of public interaction within the community.
 
-## Attribution
+## 🙏 Attribution
 
 This Code of Conduct has been adapted from the [Contributor Covenant](https://www.contributor-covenant.org "View the Contributor Covenant."),
 version 2.0, available at <https://www.contributor-covenant.org/version/2/0/code_of_conduct.html>.
