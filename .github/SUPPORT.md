@@ -1,13 +1,13 @@
 # Getting Support
 
-Firstly, thank you for your interest in this project!
+Firstly, thanks for your interest in this project!
 
 If you're reporting a bug or requesting a new feature,
 please ensure your request has not been raised before on [GitHub Issues](https://github.com/anipalur/gce-a-levels-bot/issues "Visit the GitHub Issues tab.").  
 Duplicate or unrelated issues will be closed.
 
 > **Note**  
-> By participating in our community, you agree to abide by our [Code of Conduct](./CODE_OF_CONDUCT.md "View the Code of Conduct.").
+> By participating in our community, you agree to abide by our [Code of Conduct](../CODE_OF_CONDUCT.md "View the Code of Conduct.").
 
 ## ❓ Getting Help
 
@@ -33,7 +33,7 @@ If you believe you've found a bug,
 
 Feel free to [link *relevant* issues or pull requests][linking-issue-prs] in your issue.
 
-## 💡 Feature Request
+## 💡 Feature or Enhancement Requests
 
 If you have an idea for a new feature,
 [request a feature](https://github.com/anipalur/gce-a-levels-bot/issues/new?assignees=&labels=new+feature&projects=&template=feature-request.yml "Request a feature.").
