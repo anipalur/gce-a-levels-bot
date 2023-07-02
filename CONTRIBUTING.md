@@ -51,6 +51,11 @@ See [SUPPORT.md](.github/SUPPORT.md#-feature-or-enhancement-requests "Learn more
 This project follows [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow "Learn more about GitHub flow.").
 All contributions must be submitted through a [pull request](https://github.com/anipalur/gce-a-levels-bot/pulls "View all pull requests.").
 
+For contributors, [fork this repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo "Learn how to fork a repository.")
+and [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork "Learn how to create a pull request from a fork.").  
+For collaborators and maintainers, simply [create a branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository#creating-a-branch "Learn how to create a branch.")
+and [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request#creating-the-pull-request "Learn how to create a pull request.").
+
 ## 🔍 Code Review Process
 
 All bot developers are requested for review when a new pull request is created.
