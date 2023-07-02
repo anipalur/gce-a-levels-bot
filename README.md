@@ -84,7 +84,7 @@ You will need the following secrets:
 
 Follow these steps to set your environment variables using your secrets.
 
-1. Rename the [`.env.example`](./.env.example "Open the .env.example file.") file to `.env`.
+1. Rename the [.env.example](./.env.example "Open the .env.example file.") file to .env
 2. Enter your secrets accordingly.
 3. Save the file.
 4. Restart your IDE.
@@ -100,7 +100,7 @@ Follow these steps to set your IDs.
 >
 > <summary>Can't get your IDs?</summary>
 >
-> 1. Mention the bot (@bot-name), channel (#channel-name) or role (@role-name).
+> 1. Mention the bot (@bot), channel (#channel), emoji (:emoji:) or role (@role).
 > 2. Add a backslash (<kbd> \ </kbd>) before the mention.
 > 3. Send the message.
 > 4. Copy the number. This is the corresponding ID.
@@ -109,15 +109,15 @@ Follow these steps to set your IDs.
 
 1. Navigate to `src` > `config`.
 2. Rename the following files accordingly:
-    1. [`bot-example.json`](./src/config/bot-example.json "Open the bot-example.json file.") > `bot.json`
-    2. [`channels-example.json`](./src/config/channels-example.json "Open the channels-example.json file.") > `channels.json`
-    3. [`emojis-example.json`](./src/config/emojis-example.json "Open the emojis-example.json file.") > `emojis.json`
-    4. [`roles-example.json`](./src/config/roles-example.json "Open the roles-example.json file.") > `roles.json`
+    1. [bot-example.json](./src/config/bot-example.json "Open the bot-example.json file.") > bot.json
+    2. [channels-example.json](./src/config/channels-example.json "Open the channels-example.json file.") > channels.json
+    3. [emojis-example.json](./src/config/emojis-example.json "Open the emojis-example.json file.") > emojis.json
+    4. [roles-example.json](./src/config/roles-example.json "Open the roles-example.json file.") > roles.json
 3. Enter your IDs.
-    1. Enter your bot (under client) and server (under guild) IDs in [`bot.json`](./src/config/bot.json "Open the bot.json file.").
-    2. Enter your channel IDs in [`channels.json`](./src/config/channels.json "Open the channels.json file.").
-    3. Enter your custom emoji IDs in [`emojis.json`](./src/config/emojis.json "Open the emojis.json file.").
-    4. Enter your role IDs in [`roles.json`](./src/config/roles.json "Open the roles.json file.").
+    1. Enter your bot (under `clientId`) and server (under `guildId`) IDs in [bot.json](./src/config/bot.json "Open the bot.json file.").
+    2. Enter your channel IDs in [channels.json](./src/config/channels.json "Open the channels.json file.").
+    3. Enter your custom emoji IDs in [emojis.json](./src/config/emojis.json "Open the emojis.json file.").
+    4. Enter your role IDs in [roles.json](./src/config/roles.json "Open the roles.json file.").
 4. Save all files.
 
 ### 🚨 Checking your Environment
