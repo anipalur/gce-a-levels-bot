@@ -1,3 +1,6 @@
 {
-  "Suggestion Tag": "Suggestion Reminder"
+  "Bot Suggestion": [
+    "If your suggestion is about our bot, ensure your suggestion has not been requested before on our [GitHub Issues](https://github.com/anipalur/gce-a-levels-bot/issues \"Visit our GitHub Issues tab.\") tab.",
+    "If your suggestion is about a new bot, include its [top.gg](https://top.gg \"Visit top.gg!\") link."
+  ]
 }
