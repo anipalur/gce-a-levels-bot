@@ -1,6 +1,6 @@
 const { ActionRowBuilder, ButtonBuilder, ButtonStyle, Events, formatEmoji } = require('discord.js');
 const getForumTag = require('../tools/get-forum-tag.js');
-const getLogThread = require('../tools/get-log-thread.js');
+const getLogsThread = require('../tools/get-logs-thread.js');
 const suggestionGuidelines = require('../data/suggestion-guidelines.json');
 const { botLogsChannelId, serverLogsThreadId, suggestionsChannelId } = require('../config/channels.json');
 const { blue, green } = require('../config/colours.json');
@@ -70,7 +70,7 @@ async function execute(thread, newlyCreated) {
 			components: [closeSuggestionRow],
 		});
 
-		const serverLogsThread = getLogThread(thread.client, botLogsChannelId, serverLogsThreadId);
+		const serverLogsThread = getLogsThread(thread.client, botLogsChannelId, serverLogsThreadId);
 		await serverLogsThread.send({
 			embeds: [
 				{
