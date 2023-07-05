@@ -38,7 +38,7 @@ async function watchConfirmation(replyMessage, interaction) {
 					title: `${formatEmoji(timeEmojiId)} Timed out!`,
 					description: stripIndents`
 						You did not respond in time!
-						Use the command again.
+						Use the command or button again.
 					`,
 					color: grey,
 				},
