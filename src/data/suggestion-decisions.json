@@ -1,0 +1,14 @@
+{
+  "Approved": {
+    "tag": "This suggestion has been approved!",
+    "untag": "This suggestion is no longer approved."
+  },
+  "Rejected": {
+    "tag": "This suggestion has been rejected.",
+    "untag": "This suggestion is no longer rejected!"
+  },
+  "Under Consideration": {
+    "tag": "This suggestion is under consideration.",
+    "untag": "This suggestion is no longer under consideration."
+  }
+}
