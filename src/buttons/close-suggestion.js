@@ -16,7 +16,10 @@ async function execute(interaction, client, user) {
 	const isStaff = checkRoles(memberRoles, [adminRoleId, modRoleId]);
 	if (!isStaff) {
 		await interaction.reply({
-			...new Reply().unavailable('You cannot close this suggestion!', 'Only staff can close suggestions.'),
+			...new Reply().unavailable(
+				'You cannot close this suggestion!',
+				'Only staff can close suggestions.',
+			),
 			ephemeral: true,
 		});
 		return;
@@ -77,7 +80,12 @@ async function execute(interaction, client, user) {
 		],
 	});
 
-	await interaction.editReply(new Reply().success('Suggestion closed!', 'This suggestion has been closed.'));
+	await interaction.editReply(
+		new Reply().success(
+			'Suggestion closed!',
+			'This suggestion has been closed.',
+		),
+	);
 }
 
 module.exports = { id, execute };
