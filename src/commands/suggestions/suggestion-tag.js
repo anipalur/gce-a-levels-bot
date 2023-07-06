@@ -17,8 +17,8 @@ async function suggestionTagExecute(interaction, client, user, tag) {
 	// Gets the ID of the tag matching the decision.
 	const { id: decisionTagId } = availableTags.find(availableTag => availableTag.name === tag);
 
-	const canTag = !appliedTags.includes(decisionTagId);
-	if (!canTag) {
+	const cannotTag = appliedTags.includes(decisionTagId);
+	if (cannotTag) {
 		await interaction.reply({
 			...new Reply().unavailable(
 				'You cannot tag this suggestion!',
