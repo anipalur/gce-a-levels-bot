@@ -1,5 +1,4 @@
 const { ActionRowBuilder, ButtonBuilder, ButtonStyle, Events, formatEmoji } = require('discord.js');
-const getForumTag = require('../tools/get-forum-tag.js');
 const getLogsThread = require('../tools/get-logs-thread.js');
 const suggestionGuidelines = require('../data/suggestion-guidelines.json');
 const { botLogsChannelId, serverLogsThreadId, suggestionsChannelId } = require('../config/channels.json');
@@ -43,7 +42,7 @@ async function execute(thread, newlyCreated) {
 		Gets the name of the first tag applied to the post since thread.appliedTags is just an array of
 		tag IDs.
 		*/
-		const { name: tagName } = getForumTag(thread.appliedTags, suggestionForum.availableTags);
+		const { name: tagName } = suggestionForum.availableTags.find(tag => thread.appliedTags.includes(tag.id));
 
 		// Gets the guidelines for this tag (if they exist) and formats them into an unordered list.
 		const guidelines = suggestionGuidelines[tagName]?.map(tag => `- ${tag}`).join('\n')
