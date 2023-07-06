@@ -40,10 +40,10 @@ async function execute(interaction, client, user) {
 
 	await interaction.editReply(new Reply().working('Closing this suggestion...'));
 
-	const suggestionThread = interaction.channel;
+	const suggestionPost = interaction.channel;
 
 	// Sends a public update message once a suggestion is closed.
-	await suggestionThread.send({
+	await suggestionPost.send({
 		embeds: [
 			{
 				title: `${formatEmoji(deleteMessageEmojiId)} Suggestion closed!`,
@@ -56,8 +56,8 @@ async function execute(interaction, client, user) {
 		],
 	});
 
-	// Archives AND locks the suggestion thread (only possible with ThreadChannel.edit()).
-	await suggestionThread.edit({
+	// Archives AND locks the suggestion post (only possible with ThreadChannel.edit()).
+	await suggestionPost.edit({
 		archived: true,
 		locked: true,
 		reason: `${user.username} closed this suggestion.`,
@@ -71,8 +71,8 @@ async function execute(interaction, client, user) {
 				description: `<@${user.id}> closed a suggestion.`,
 				fields: [
 					{
-						name: `${formatEmoji(hashtagEmojiId)} Suggestion Thread`,
-						value: `<#${suggestionThread.id}>`,
+						name: `${formatEmoji(hashtagEmojiId)} Suggestion Post`,
+						value: `<#${suggestionPost.id}>`,
 					},
 				],
 				color: blue,
