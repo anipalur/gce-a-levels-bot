@@ -77,7 +77,7 @@ async function execute(thread, newlyCreated) {
 					description: `<@${threadOwnerId}> posted a suggestion.`,
 					fields: [
 						{
-							name: `${formatEmoji(hashtagEmojiId)} Suggestion Thread`,
+							name: `${formatEmoji(hashtagEmojiId)} Suggestion Post`,
 							value: `<#${thread.id}>`,
 							inline: true,
 						},
