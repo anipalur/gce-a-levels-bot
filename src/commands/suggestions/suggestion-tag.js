@@ -11,6 +11,7 @@ const { stripIndents } = require('common-tags');
 const subcommand = true;
 
 async function suggestionTagExecute(interaction, client, user, tag) {
+	const suggestionThread = interaction.channel;
 	const appliedTags = interaction.channel.appliedTags;
 	const availableTags = interaction.channel.parent.availableTags;
 
@@ -53,8 +54,6 @@ async function suggestionTagExecute(interaction, client, user, tag) {
 		return !(appliedTagName in decisionMessages);
 	});
 	const tagsToApply = [...nonDecisionTagIds, decisionTagId];
-
-	const suggestionThread = interaction.channel;
 	await suggestionThread.setAppliedTags(tagsToApply, `${user.username} added '${tag}' to this suggestion.`);
 
 	const decisionMessage = decisionMessages[tag].tag;
