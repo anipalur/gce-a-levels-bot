@@ -10,9 +10,9 @@ const { editMessageEmojiId, hashtagEmojiId } = require('../../config/emojis.json
 const subcommand = true;
 
 async function suggestionUntagExecute(interaction, client, user, tag) {
-	const suggestionThread = interaction.channel;
-	const appliedTags = suggestionThread.appliedTags;
-	const availableTags = suggestionThread.parent.availableTags;
+	const suggestionPost = interaction.channel;
+	const appliedTags = suggestionPost.appliedTags;
+	const availableTags = suggestionPost.parent.availableTags;
 
 	// Gets the ID of the tag matching the decision.
 	const { id: decisionTagId } = availableTags.find(availableTag => availableTag.name === tag);
@@ -49,12 +49,12 @@ async function suggestionUntagExecute(interaction, client, user, tag) {
 		const { name: appliedTagName } = availableTags.find(availableTag => availableTag.id === appliedTagId);
 		return !(appliedTagName in decisionMessages);
 	});
-	await suggestionThread.setAppliedTags(tagsToApply, `${user.username} removed '${tag}' from this suggestion.`);
+	await suggestionPost.setAppliedTags(tagsToApply, `${user.username} removed '${tag}' from this suggestion.`);
 
 	const decisionMessage = decisionMessages[tag].untag;
 
 	// Sends a public update message that a tag has been removed.
-	await suggestionThread.send({
+	await suggestionPost.send({
 		embeds: [
 			{
 				title: `${formatEmoji(editMessageEmojiId)} Suggestion updated!`,
@@ -72,8 +72,8 @@ async function suggestionUntagExecute(interaction, client, user, tag) {
 				description: `<@${user.id}> removed '${tag}' from a suggestion.`,
 				fields: [
 					{
-						name: `${formatEmoji(hashtagEmojiId)} Suggestion Thread`,
-						value: `<#${suggestionThread.id}>`,
+						name: `${formatEmoji(hashtagEmojiId)} Suggestion Post`,
+						value: `<#${suggestionPost.id}>`,
 					},
 				],
 				color: blue,
