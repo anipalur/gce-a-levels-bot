@@ -38,8 +38,9 @@ async function execute(interaction, client, user) {
 	const hasConfirmed = await watchConfirmation(closeSuggestionReply, interaction);
 	if (!hasConfirmed) return;
 
-	const suggestionThread = interaction.channel;
 	await interaction.editReply(new Reply().working('Closing this suggestion...'));
+
+	const suggestionThread = interaction.channel;
 
 	// Sends a public update message once a suggestion is closed.
 	await suggestionThread.send({
