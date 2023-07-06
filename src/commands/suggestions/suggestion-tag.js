@@ -11,9 +11,9 @@ const { stripIndents } = require('common-tags');
 const subcommand = true;
 
 async function suggestionTagExecute(interaction, client, user, tag) {
-	const suggestionThread = interaction.channel;
-	const appliedTags = interaction.channel.appliedTags;
-	const availableTags = interaction.channel.parent.availableTags;
+	const suggestionPost = interaction.channel;
+	const appliedTags = suggestionPost.appliedTags;
+	const availableTags = suggestionPost.parent.availableTags;
 
 	// Gets the ID of the tag matching the decision.
 	const { id: decisionTagId } = availableTags.find(availableTag => availableTag.name === tag);
@@ -54,12 +54,12 @@ async function suggestionTagExecute(interaction, client, user, tag) {
 		return !(appliedTagName in decisionMessages);
 	});
 	const tagsToApply = [...nonDecisionTagIds, decisionTagId];
-	await suggestionThread.setAppliedTags(tagsToApply, `${user.username} added '${tag}' to this suggestion.`);
+	await suggestionPost.setAppliedTags(tagsToApply, `${user.username} added '${tag}' to this suggestion.`);
 
 	const decisionMessage = decisionMessages[tag].tag;
 
 	// Sends a public update message that a tag has been added.
-	await suggestionThread.send({
+	await suggestionPost.send({
 		embeds: [
 			{
 				title: `${formatEmoji(editMessageEmojiId)} Suggestion updated!`,
@@ -77,8 +77,8 @@ async function suggestionTagExecute(interaction, client, user, tag) {
 				description: `<@${user.id}> added '${tag}' to a suggestion.`,
 				fields: [
 					{
-						name: `${formatEmoji(hashtagEmojiId)} Suggestion Thread`,
-						value: `<#${suggestionThread.id}>`,
+						name: `${formatEmoji(hashtagEmojiId)} Suggestion Post`,
+						value: `<#${suggestionPost.id}>`,
 					},
 				],
 				color: blue,
