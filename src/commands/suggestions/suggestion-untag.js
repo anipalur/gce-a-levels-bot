@@ -10,8 +10,9 @@ const { editMessageEmojiId, hashtagEmojiId } = require('../../config/emojis.json
 const subcommand = true;
 
 async function suggestionUntagExecute(interaction, client, user, tag) {
-	const appliedTags = interaction.channel.appliedTags;
-	const availableTags = interaction.channel.parent.availableTags;
+	const suggestionThread = interaction.channel;
+	const appliedTags = suggestionThread.appliedTags;
+	const availableTags = suggestionThread.parent.availableTags;
 
 	// Gets the ID of the tag matching the decision.
 	const { id: decisionTagId } = availableTags.find(availableTag => availableTag.name === tag);
@@ -48,8 +49,6 @@ async function suggestionUntagExecute(interaction, client, user, tag) {
 		const { name: appliedTagName } = availableTags.find(availableTag => availableTag.id === appliedTagId);
 		return !(appliedTagName in decisionMessages);
 	});
-
-	const suggestionThread = interaction.channel;
 	await suggestionThread.setAppliedTags(tagsToApply, `${user.username} removed '${tag}' from this suggestion.`);
 
 	const decisionMessage = decisionMessages[tag].untag;
