@@ -1,9 +1,8 @@
 const { ActionRowBuilder, ButtonBuilder, ButtonStyle, Events, formatEmoji } = require('discord.js');
 const getLogsThread = require('../tools/get-logs-thread.js');
-const suggestionGuidelines = require('../data/suggestion-guidelines.json');
 const { botLogsChannelId, serverLogsThreadId, suggestionsChannelId } = require('../config/channels.json');
 const { blue, green } = require('../config/colours.json');
-const { downvoteEmojiId, hashtagEmojiId, infoEmojiId } = require('../config/emojis.json');
+const { downvoteEmojiId, hashtagEmojiId } = require('../config/emojis.json');
 const { newMessageEmojiId, pinEmojiId, upvoteEmojiId } = require('../config/emojis.json');
 const { stripIndents } = require('common-tags');
 const chalk = require('chalk');
@@ -38,18 +37,7 @@ async function execute(thread, newlyCreated) {
 		await starterMessage.react(downvoteEmojiId);
 		await starterMessage.pin('To pin the starter message.');
 
-		/*
-		Gets the name of the first tag applied to the post since thread.appliedTags is just an array of
-		tag IDs.
-		*/
-		const { name: tagName } = suggestionForum.availableTags.find(tag => thread.appliedTags.includes(tag.id));
-
-		// Gets the guidelines for this tag (if they exist) and formats them into an unordered list.
-		const guidelines = suggestionGuidelines[tagName]?.map(tag => `- ${tag}`).join('\n')
-			?? '\nUnable to retrieve more guidelines for this tag.';
-
 		const threadOwnerId = thread.ownerId;
-
 		await thread.send({
 			content: `<@${threadOwnerId}>`,
 			embeds: [
@@ -58,9 +46,16 @@ async function execute(thread, newlyCreated) {
 					description: stripIndents`
 						Thanks for posting a suggestion, <@${threadOwnerId}>!
 
-						Please make sure you follow these guidelines:
+						Please address these points in your suggestion:
 						- Elaborate on your suggestion!
-						${guidelines}
+						- How do you want us to improve on this?
+						- Why do you want to make this change?
+						- How might this change influence the server?
+						- What steps can the moderator team take to make this change? 
+						- Is there anything else you would like to suggest?
+
+						Try to keep all suggestions on-topic and relevant!
+						Any abuse of this suggestion system will result in moderation actions being taken against you, so watch out!
 					`,
 					color: green,
 				},
@@ -79,11 +74,6 @@ async function execute(thread, newlyCreated) {
 						{
 							name: `${formatEmoji(hashtagEmojiId)} Suggestion Post`,
 							value: `<#${thread.id}>`,
-							inline: true,
-						},
-						{
-							name: `${formatEmoji(infoEmojiId)} Suggestion Tag`,
-							value: tagName,
 							inline: true,
 						},
 					],
