@@ -1,6 +1,6 @@
 {
   "name": "gce-a-levels-bot",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A powerful, multi-purpose Discord bot that manages the GCE A Levels Discord server!",
   "main": "./src/index.js",
   "scripts": {
